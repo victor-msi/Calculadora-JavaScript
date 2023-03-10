@@ -1,0 +1,28 @@
+.grid-container{
+  margin-top: 8px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 10px;
+  /* border: 1px solid black; */
+}
+
+.grid-container__buttom button{
+  width: 65px;
+  height: 65px;
+  border: none;
+  cursor: pointer;
+  border-radius: 35px;
+
+}
+
+.grid-buttom__equal{
+  grid-area: 4/4/6/5;
+  
+  button{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+

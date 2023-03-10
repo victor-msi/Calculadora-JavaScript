@@ -1,0 +1,39 @@
+@mixin buttoms($background, $color){
+  font-size: 1.2rem;
+  color: $color;
+  background-color: $background;
+}
+
+.buttom-C{
+  @include buttoms(#ffd5d8, #fc4552);
+}
+
+.buttom-operator{
+  @include buttoms(#ffd0fb, #f967f3);
+}
+
+.buttom-number{
+  @include buttoms(#c3eaff, #000);
+}
+
+.buttom-equal{
+  @include buttoms(#adf9e7, #000)
+}
+
+/* Dark-Mode */
+
+/* .buttom-C{
+  @include buttoms(#4C35AA, #fff);
+}
+
+.buttom-operator{
+  @include buttoms(#f0db4f, #aa00a4);
+}
+
+.buttom-number{
+  @include buttoms(#8efda6, #000);
+}
+
+.buttom-equal{
+  @include buttoms(#f23b00, #fff)
+} */

@@ -1,0 +1,28 @@
+.calculator-container{
+  padding: 20px;
+  width: 400px;
+  height: 550px;
+  border-radius: 10px;
+  background-color: #fff;
+  /* background-color: #1b1b1b; */
+  box-shadow: 0 0 30px rgb(187, 130, 130);
+
+  .switch{
+    position: relative;
+    margin-bottom: 15px;
+    left: 320px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    /* background-color: #fff; */
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .panel{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid black; */
+  }
+}

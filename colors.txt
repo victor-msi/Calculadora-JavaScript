@@ -1,0 +1,14 @@
+panel: #0a1e23
+button C: #fc4552 - Bg: #ffd5d8
+Button numbers: #000 - Bg: #c3eaff
+Button operators: #f967f3 - Bg: #ffd0fb
+Button equal: #000 - Bg: #adf9e7
+switch: #333
+
+Dark-mode: Bg: #1B1B1B
+panel: color:#f8fafb
+button C: #fff - Bg: #4C35AA
+Button numbers: #000 - Bg: #8EFDA6
+Button operators: #aa00a4 - Bg: #F0DB4F
+Button equal: #FFF - Bg: #F23B00
+switch: #fff
