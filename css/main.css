@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(45deg, #f06291, #fffde7);
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid-container {
+  margin-top: 8px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 10px;
+  /* border: 1px solid black; */
+}
+
+.grid-container__buttom button {
+  width: 65px;
+  height: 65px;
+  border: none;
+  cursor: pointer;
+  border-radius: 35px;
+  transition: all 200ms ease;
+}
+.grid-container__buttom button:hover {
+  transform: scale(1.1);
+}
+
+.grid-buttom__equal {
+  grid-area: 4/4/6/5;
+}
+.grid-buttom__equal button {
+  width: 100%;
+  height: 100%;
+}
+
+.calculator-container {
+  padding: 20px;
+  width: 400px;
+  height: 550px;
+  border-radius: 10px;
+  background-color: #fff;
+  /* background-color: #1b1b1b; */
+  box-shadow: 0 0 30px rgb(187, 130, 130);
+}
+.calculator-container .switch {
+  position: relative;
+  margin-bottom: 15px;
+  left: 320px;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.calculator-container .panel {
+  width: 100%;
+  height: 15%;
+  /* border: 1px solid yellow; */
+}
+.calculator-container .panel .panel-scream {
+  position: relative;
+  left: 0px;
+  padding-top: 18px;
+  font-size: 1.8rem;
+  color: #0a1e23;
+  /* border: 1px solid #fff; */
+}
+.calculator-container .buttom-C {
+  font-size: 1.2rem;
+  color: #fc4552;
+  background-color: #ffd5d8;
+}
+.calculator-container .buttom-operator {
+  font-size: 1.2rem;
+  color: #f967f3;
+  background-color: #ffd0fb;
+}
+.calculator-container .buttom-number {
+  font-size: 1.2rem;
+  color: #000;
+  background-color: #c3eaff;
+}
+.calculator-container .buttom-equal {
+  font-size: 1.2rem;
+  color: #000;
+  background-color: #adf9e7;
+}
+.calculator-container.dark-mode {
+  background-color: #1b1b1b;
+}
+.calculator-container.dark-mode .panel-scream {
+  color: #f8fafb;
+  font-size: 1.8rem;
+}
+.calculator-container.dark-mode .switch {
+  background-color: #fff;
+}
+.calculator-container.dark-mode .buttom-C {
+  background-color: #4C35AA;
+  color: #fff;
+}
+.calculator-container.dark-mode .buttom-operator {
+  background-color: #f0db4f;
+  color: #aa00a4;
+}
+.calculator-container.dark-mode .buttom-number {
+  background-color: #c3eaff;
+  color: #000;
+}
+.calculator-container.dark-mode .buttom-equal {
+  background-color: #f23b00;
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
